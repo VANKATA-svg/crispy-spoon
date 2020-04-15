@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Conveter2
+namespace Console_Converter
 {
     class Program
     {
@@ -12,8 +12,10 @@ namespace Console_Conveter2
         {
             double fahrenheit;
 
-            double celsius = -5.5;
+            double celsius = 32.3;
             Console.WriteLine("Celsius: " + celsius);
+
+          
 
             fahrenheit = (celsius * 9) / 5 + 32;
             Console.WriteLine("Fahrenheit: " + fahrenheit);
